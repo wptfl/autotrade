@@ -42,6 +42,7 @@ sell_price = 0
 
 # 자동매매 시작
 while True:
+    print("lalala")
     try:
         now = datetime.datetime.now()
         start_time = get_start_time("KRW-ETC")   # 9:00
